@@ -236,10 +236,13 @@ https://www.tooplate.com/view/2119-gymso-fitness
   .modal-footer {
     border: 0;
     padding: 0;
+   
+
   }
 
+    
   .membership-form a {
-    color: var(--primary-color);
+    color:#f13a11;
   }
 
 
@@ -694,3 +697,27 @@ https://www.tooplate.com/view/2119-gymso-fitness
       display: block;
     }
   }
+
+
+
+  /* Custom scroll bar */
+
+  ::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #945142;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f13a11;
+}
+  /* end custom scroll bar */
